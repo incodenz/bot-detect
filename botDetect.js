@@ -24,7 +24,7 @@
                     if ( typeof elm[ name ] === 'undefined' ) {
                         elm[ name ] = null;
                     }
-                    elem.detachEvent( name, handle );
+                    elm.detachEvent( name, handle );
                 }
             }
         };
